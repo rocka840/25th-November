@@ -1,6 +1,11 @@
-var someCar = {
-    color: "red",
-    speed: 120
+class Car {
+    constructor(color, speed) {
+
+    }
 }
 
-console.log("The " + someCar.color + " car is driving with " + someCar.speed + " an hour");
+var carOne = new Car('red', '120');
+var carTwo = new Car('Blue', '90');
+
+console.log(carOne);
+console.log(carTwo);
